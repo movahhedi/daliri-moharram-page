@@ -28,10 +28,10 @@
 
 
 		<div class="buttons">
-			<button class="button buttonCopy" onclick="copyCard()">
+			<button class="button buttonCopy" id="buttonCopy">
 				کپی شماره کارت
 			</button>
-			<a class="button buttonBale" href="https://bale.ai">
+			<a class="button buttonBale" href="https://bale.ai" target="_blank" rel="noopener noreferrer">
 				ورود به کانال بله
 			</a>
 		</div>
@@ -43,12 +43,7 @@
 		</h2>
 	</div>
 
-	<script>
-		function copyCard() {
-			navigator.clipboard.writeText("6219-8610-7399-7024");
-		}
-	</script>
-
+	<script type="module" src="index.ts"></script>
 </body>
 
 </html>

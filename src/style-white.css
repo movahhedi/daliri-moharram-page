@@ -92,9 +92,13 @@ body {
     padding: 10px 30px;
     color: white;
     font-weight: 500;
-    transition: 300ms;
+    transition: 800ms;
     cursor: pointer;
 	text-decoration: none;
+}
+
+#buttonCopy.copied {
+	background-color: #29b242;
 }
 
 .button:hover {
