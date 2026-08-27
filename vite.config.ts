@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import { viteSingleFile } from "vite-plugin-singlefile";
 
 export default defineConfig({
 	root: "src",
@@ -6,4 +7,7 @@ export default defineConfig({
 	build: {
 		outDir: "../docs",
 	},
+	plugins: [
+		viteSingleFile(),
+	],
 });
